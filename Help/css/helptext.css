@@ -1,0 +1,28 @@
+/* 浏览器样式清除 reset */
+ body,div,span,p,h1,h2,em,a,fieldset,legend,address,label,textarea,select,input,figure,table,th,td,b,i{margin:0;padding:0;}
+body, button, input, select, textarea{ font:12px/1.5 Tahoma,Arial,'微软雅黑'; }
+i{font-style:normal;}
+a{text-decoration:none;}
+input,select,img{ vertical-align:middle;}
+
+.help-ques {
+	width: 88%;
+	margin: 0 auto;
+}
+.help-ques h1 {
+	font-size: 0.8rem;
+	text-align: center;
+}
+.help-ques .help-items {
+	margin-bottom: 0.4rem;
+}
+.help-ques .help-items h2 {
+	font-size: 0.6rem;
+}
+.help-ques .help-items p {
+	font-size: 0.6rem;
+	margin-bottom: 0.3rem;
+}
+.help-ques .help-items img {
+	width: 100%;
+}

@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.topbar {
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	background: #fff url(bg.png) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.am-form-field {
+	width: 140px;
+}
+.table-container {
+	width: 1020px;
+	margin: 0 auto;
+}
+.seacrh-wrap {
+	margin-bottom: 20px;
+}
+.order-num {
+	width: 200px;
+}
+.am-panel-default>.am-panel-hd {
+	color: #fff;
+	background-color: #005bac;
+	border-color:#005bac;
+}
+.detail-container {
+	width: 1020px;
+	margin: 0 auto;
+}
+.order-detail_title {
+	width: 90px;
+	font-size: 16px;
+	line-height: 20px;
+	display: inline-block;
+	font-weight: normal;
+	margin: 0;
+	vertical-align: top;
+}
+.order-detail_conent,.order-detail_memo {
+	display: inline-block;
+	margin: 0;
+}
+.order-detail_memo {
+	width: 80%;
+	height: 80px;
+}
+#allmap {
+	width:700px;
+	height: 400px;
+	margin:0 auto;
+}
+.map-total-mile {
+	width:700px;
+	margin:6px auto 20px;
+}
+.am-btn-secondary {
+	background: #005bac;
+	border: none;
+}
+.list-operate {
+	color: #e44715;
+	position: relative;
+}
+.list-operate:hover {
+	color: #db4819;
+}
+.am-badge-primary {
+	position: absolute;
+	right: -18px;
+	top: -7px;
+	padding: .2em .425em;
+}
+.pay-container {
+	width: 1020px;
+	margin:100px auto 0;
+}
+.pay-status {
+	margin-bottom: 20px;
+}
+.pay-agree {
+	margin-right: 20px;
+}
+.am-btn-warning {
+	background: #e44715;
+}
+.receipt-total_wrap {
+	width: 80%;
+	margin: 20px auto;
+}
+.receipt-wrap_left {
+	width: 42%;
+	float: left;
+}
+.receipt-wrap_right {
+	width: 42%;
+	float: right;
+
+}
+.am-form-field {
+	width: 157px;
+	float: left;
+	margin-left: 10px;
+}
+.receipt-pic img {
+	width: 360px;
+}
+.am-form-label {
+	float: left;
+}
+.order-search {
+	margin-top: 20px;
+}
+.ticket-settle_wrap {
+	height: 500px;
+	overflow: auto;
+}
+.am-form-field {
+	width: 150px;
+	margin: 0px 0 20px 10px;
+}
+.am-article-lead {
+	clear: both;
+}

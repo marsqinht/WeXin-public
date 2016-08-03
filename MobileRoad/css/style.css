@@ -1,0 +1,80 @@
+body{
+	background: #fbf9fe;
+}
+a {
+    color: #000;
+}
+#start-point {
+
+}
+.ponit-add {
+	width: 70%;
+	margin:20px auto;
+}
+.btn-points {
+    float: right;
+    margin: 10px 10px 0;
+}
+.add-btn-wrap {
+   overflow: hidden;
+    font-size: 18px;
+}
+.arrow-bottom:after {
+	content: " ";
+    display: inline-block;
+    -webkit-transform: rotate(134deg);
+    transform: rotate(134deg);
+    height: 6px;
+    width: 6px;
+    border-width: 2px 2px 0 0;
+    border-color: #C8C8CD;
+    border-style: solid;
+    position: relative;
+    top: -2px;
+    top: -1px;
+    margin-left: .3em;
+}
+.list-wrap {
+	margin-top: 20px;
+}
+.modal-content_self {
+	margin: 0 0 20px 0;
+}
+.close-btn {
+	width: 60%;
+	margin: 30px auto;
+}
+.weui-picker-container {
+	z-index: 10000;
+}
+.del-btn {
+    color: #E64340;
+}
+.add-points-btn {
+    width: 60%;
+    margin: 20px auto;
+}
+.weui_cell_select .weui_cell_bd:after{
+    -webkit-transform: rotate(134deg);
+    transform: rotate(134deg);
+}
+.fa-long-arrow-right {
+    color: #04be02;
+}
+#all-points-wrap {
+    margin-bottom: 20px;
+}
+.toolbar-add-pic {
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    color: #04BE02;
+    z-index: 1;
+    padding: 0 .5rem;
+}
+
+.toolbar .picker-button {
+    color: #E64340;
+}

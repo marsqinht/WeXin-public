@@ -1,0 +1,551 @@
+.hd {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+.tempWrap {
+	padding-top: 1rem;
+}
+.hd .weui-row {
+	text-align: center;
+	font-size: .32rem;
+	line-height: .88rem;
+	background: #fff;
+	border-bottom: 1px solid #2298ef;
+}
+.hd .on {
+	border-bottom: 3px solid #2298ef;
+}
+.trade-order-item {
+	margin-top: .2rem;
+	border: 3px solid #2298ef;
+	border-left: none;
+	border-right: none;
+	background: #fff;
+	overflow: hidden;
+}
+.latest-list_search {
+	background: #fff;
+	border-top: 1px solid #2298ef;
+	border-bottom: 1px solid #2298ef;
+}
+.list-search_wrap {
+	width: 6.5rem;
+	height:.88rem;
+	margin: 0 auto;
+}
+.list-seacrh_btn {
+	border: none;
+	background: #2298ef;
+	color: #fff;
+	width:1.4rem;
+	height: .68rem;
+	font-size: .3rem;
+	outline: none;
+	border-radius: .1rem;
+}
+.list-search_input {
+	width: 4.78rem;
+	color: #a3a3a3;
+	border-left: 1px solid #2298ef;
+	text-indent:.3rem;
+	height: .62rem;
+	line-height: .62rem;
+}
+.trade-order_place {
+	margin-bottom: 0;
+	border-bottom: 1px solid #2298ef;
+}
+.order-self_price {
+	color: #ff4400;
+}
+.adv-road_place {
+	width: 6.5rem;
+}
+.adv-road_addr {
+	width: 6rem;
+}
+.trade-order_details {
+	padding: .1rem 0;
+	width: 6.5rem;
+	font-size: .28rem;
+	margin: 0 auto;
+	display: box;			  /* OLD - Android 4.4- */
+	display: -webkit-box;	  /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;		 /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;	  /* TWEENER - IE 10 */
+	display: -webkit-flex;	 /* NEW - Chrome */
+	display: flex;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	-o-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	-moz-justify-align-items: center;
+	-ms-justify-align-items: center;
+	-o-justify-align-items: center;
+	align-items: center;
+}
+
+.details_cells:nth-of-type(2),.details_cells:nth-of-type(3) {
+	display: box;			  /* OLD - Android 4.4- */
+	display: -webkit-box;	  /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;		 /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;	  /* TWEENER - IE 10 */
+	display: -webkit-flex;	 /* NEW - Chrome */
+	display: flex;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	-o-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	-moz-justify-align-items: center;
+	-ms-justify-align-items: center;
+	-o-justify-align-items: center;
+	align-items: center;
+	width: 1.56rem;
+	height: 1.56rem;
+	border: 2px solid #2298ef;
+	border-radius: .1rem;
+}
+.detail-pic_status {
+	width: 1rem;
+	height: .8rem;
+	background: url(../images/status1.png) center -1.73rem no-repeat;
+	background-size: 1rem;
+}
+span.trade-common {
+	font-size: .28rem;
+	color: #000;
+}
+span.trade-area {
+	font-size: .27rem;
+	padding-left: .1rem;
+	color: #888;
+}
+.details_cells:nth-of-type(2) {
+	color: #2298ef;
+}
+.details_cells:nth-of-type(3) {
+	background: #2298ef;
+	font-size: .36rem;
+	color: #fff;
+}
+.order-detail_cell {
+}
+/* .weui-popup-modal {
+	background: #fff;
+} */
+.pack-update-wrap {
+	background: #fff;
+}
+.popup-bar {
+	padding: 0 .4rem;
+	font-size: .3rem;
+	line-height: .82rem;
+	border-bottom: 1px solid #2298ef;
+}
+/* .close-popup {
+	color:#fe7759;
+} */
+.pack-update-btn {
+	color: #2298ef;
+}
+.weui-popup-modal .modal-content {
+    padding-top: 0;
+}
+.pack-price-input,.pack-car-input {
+	padding: .3rem 0;
+	border-bottom: 1px solid #7d7d7d;
+	position: relative;
+}
+.my-price_tips {
+	position: absolute;
+	right: .4rem;
+	top: .3rem;
+}
+.region-select {
+	margin-top: .8rem;
+}
+.modal-content input {
+	width: 100%;
+	border: none;
+	line-height:.3rem;
+	font-size: .3rem;
+	outline: none;
+	padding-left: .32rem;
+	color: #2298ef;
+}
+.pack-update-wrap {
+	bottom: 48%;
+}
+.pack-cancel,.pack-change-price {
+	width: 2.7rem;
+}
+.pack-contact_wrap {
+	overflow: hidden;
+	padding:.2rem .4rem;
+}
+a.cancel {
+	color:#ff4400;
+}
+a.confirm {
+	color: #2298ef;
+}
+.latset-details_cells {
+}
+.latest_cell {
+	border-bottom: none;
+}
+.my-items {
+	padding: 0 .35rem;
+}
+.my-short-wrap {
+	width: 4.5rem;
+	margin: 0;
+}
+.my-short {
+	width: 4rem;
+}
+.status-shengxiao {
+	background: #fff url(../images/status2.png) center -.07rem no-repeat;
+}
+.status-zuofei {
+	background: #fff url(../images/status2.png) center -1.23rem no-repeat;
+}
+.status-baojia {
+	background: #fff url(../images/status2.png) center -2.41rem no-repeat;
+}
+.status-yijia {
+	background: #fff url(../images/status2.png) center -3.6rem no-repeat;
+}
+.status-xiadan {
+	background: #fff url(../images/status2.png) center -8.43rem no-repeat;
+}
+.status-gaijia {
+	background: #fff url(../images/status2.png) center -5.99rem no-repeat;
+}
+.status-wancheng {
+	background: #fff url(../images/status2.png) center -7.14rem no-repeat;
+}
+.order-detail_cell:nth-of-type(3) {
+	border-bottom: none;
+}
+.my-order_status {
+	width: 1.45rem;
+	height: 1.05rem;
+	overflow: hidden;
+	-webkit-background-size: 1.4rem;
+	background-size: 1.4rem;
+}
+.new-order-btn {
+	width:1.6rem;
+	height: .82rem;
+	background: #2298ef;
+	color: #fff;
+	border: none;
+	border-radius: .1rem;
+	font-size: .36rem;
+}
+.to-gray {
+	background: #999;
+}
+.search-region-btn {
+	margin: 1rem auto;
+}
+/* 指派车辆 */
+.dispatch-container {
+	padding-bottom: 2rem;
+}
+.dis-car {
+	margin-top: .2rem;
+	overflow: hidden;
+}
+.dis-car a{
+	font-size: .28rem;
+	float: right;
+	line-height: 1;
+	margin-right: .4rem;
+	text-decoration: underline;
+}
+.dis-search {
+	height: .76rem;
+	background: #fff;
+	margin-top: .2rem;
+	padding: .1rem .4rem;
+}
+.dis-width{
+	width: 2.5rem;
+}
+.dis-srch_input {
+	position: relative;
+	height: 100%;
+}
+.dis-srch_input span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1.1rem;
+	height: .72rem;
+	line-height: .72rem;
+	background: #2298ef;
+	border-radius: .06rem;
+	color: #fff;
+	text-align: center;
+}
+.dis-srch_input input {
+	display: inline-block;
+	width: 3.16rem;
+	height: .7rem;
+	font-size: .26rem;
+	border: 1px solid #bababa;
+	border-radius: .06rem;
+	padding-left: 1.2rem;
+}
+.dis-srch_btn {
+	width:1.8rem;
+	height: .72rem;
+	line-height: .72rem;
+	text-align: center;
+	background: #2298ef;
+	color: #fff;
+	border-radius: .06rem;
+}
+.dis-items {
+	margin-top: .2rem;
+	border:.08rem solid #2298ef;
+	border-left: none;
+	border-right: none;
+	background: #fff;
+	padding: 0  .4rem;
+}
+.dis-items_status {
+	width: 4.2rem;
+	font-size:.28rem;
+
+}
+.dis-items_cell {
+	border-bottom: 1px solid #2298ef;
+	line-height: .6rem;
+}
+.dis-items_cell:nth-of-type(3) {
+	border-bottom: none;
+}
+.dis-items_upload {
+	width: 1.8rem;
+	height: 1.58rem;
+	text-align: center;
+	background: #2298ef;
+	border-radius: .1rem;
+	color: #fff;
+}
+.dis-btn {
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    margin-left: -2.8rem;
+}
+.dis-condition-wrap {
+	background: #fff;
+}
+.dis-car_cel span,.dis-car_cel input {
+	font-size: .28rem;
+	display: inline-block;
+}
+.dis-car_cel,{
+	padding: 0 .4rem;
+}
+.dis-car_cel input {
+	width: 4.8rem;
+}
+.dis-car_cel span {
+	line-height: .56rem;
+	padding: 0 .2rem 0 0;
+	border-right: 1px solid #2298ef;
+}
+.dis-car_cel {
+	padding: .16rem  .4rem;
+	border-bottom: 1px solid #2298ef;
+}
+.dis-car_tips {
+	padding: 0 .9rem;
+	font-size: .25rem;
+	color: #fd5e5b;
+	border-bottom: 1px solid #afafaf;
+	text-align: center;
+}
+.dis-car-list {
+	height: 4.3rem;
+	overflow: auto;
+}
+.dis-car-list li {
+	padding: 0 .4rem;
+	height: .86rem;
+	line-height: .86rem;
+	border-bottom: 1px solid #d4d4d4;
+	background: #fff;
+}
+.weui_mask,.weui_dialog {
+	z-index: 9999;
+}
+.dis-car_confirm {
+	margin: 1rem 0 0 1rem;
+}
+/* 单据信息 start */
+.bills-content {
+	margin-top: .2rem;
+	border-top: 3px solid #2298ef;
+	border-bottom: 1px solid #2298ef;
+}
+.bills-line {
+	border-bottom: 1px solid #2298ef;
+}
+.bills-tonnage {
+	font-size:.33rem;
+	line-height:.88rem;
+}
+.bills-tonnage input {
+	font-size: .33rem;
+}
+.bills-ton,.bills-date {
+	padding: 0  .3rem;
+	border-bottom: 1px solid #2298ef;
+	background: #fff;
+}
+.right-arrow:after {
+	width: 10px;
+	height: 10px;
+}
+.bills-btn_wrap {
+	width: 5.6rem;
+	margin:0.86rem auto 0;
+}
+.bills-btn_cancel,.bills-btn_confirm {
+	width:2.6rem;
+	height: .86rem;
+	border-radius: .1rem;
+	border: none;
+	color: #fff;
+	outline: none;
+}
+.bills-btn_cancel {
+	font-size: .25rem;
+	background: #969696;
+	padding: 0 .38rem;
+}
+.bills-btn_confirm {
+	background: #2298ef;
+	font-size: .34rem;
+}
+.bills-cell {
+	font-size: .27rem;
+	margin-top: .4rem;
+	text-decoration: underline;
+}
+.bills-cell a {
+	color: #ff4400;
+	display: block;
+	text-align: center;
+}
+.bills-ton_modi {
+	margin: .2rem 0 0 0;
+	background: #fff;
+	padding: .16rem .3rem;
+}
+.bills-ton_title {
+	font-size: .28rem;
+	font-weight: normal;
+	line-height: .56rem;
+	border-right: 1px solid #2298ef;
+	padding-right:.24rem;
+	display: inline-block;
+}
+.bills-ton_modi input {
+	padding-left:.2rem;
+	font-size: .28rem;
+}
+.bills-upload {
+	background: #fff;
+	width: 100%;
+	height:3.1rem;
+	margin-top: .2rem;
+	padding-top: .3rem;
+}
+.bills-upload_wrap {
+	width: 5.6rem;
+	height: 2.8rem;
+	border: 1px solid #aaa;
+	border-radius: .1rem;
+	margin: 0 auto ;
+	position: relative;
+	background: #fff url(../images/icons.png) center .6rem no-repeat;
+	background-size: 1.05rem;
+}
+.reg-upload-input {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.bills-upload_wrap p {
+	color: #aaa;
+	position: absolute;
+	font-size: .26rem;
+	left: 2.03rem;
+	bottom: .5rem;
+}
+.bills-change-btn {
+	width: 5.6rem;
+	margin:3.48rem auto 0;
+}
+.bills-btn_status {
+	width: 2.7rem;
+	height: .9rem;
+	background: #2298ef;
+	color: #fff;
+	font-size: .36rem;
+	border-radius: .1rem;
+	border: none;
+	outline: none;
+}
+.bills-pic {
+	height: 2rem;
+	background-repeat:no-repeat;
+	background-position: center;
+	width: 6.8rem;
+	margin: .2rem auto;
+	border: 1px solid #2298ef;
+	border-radius: .1rem;
+	background-size:contain;
+}
+.bills-pic img{
+	width: 100%;
+	height: 100%;
+}
+.bills-num {
+	color:#969696;
+}
+.bills-date_get {
+	color:#969696;
+}
+.dispatch-modal {
+	background: #EFEFF4;
+}
+.date-input {
+	width: 4rem;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    background-color: transparent;
+    font-size: inherit;
+    color: inherit;
+    /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+}
+/* 单据信息 end */

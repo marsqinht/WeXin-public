@@ -1,0 +1,167 @@
+.pack-container {
+	padding-top: .2rem;
+}
+.pack-detail {
+	border-top: 3px solid #2298ef;
+	margin-bottom: 0;
+	border-bottom: 1px solid #2298ef;
+}
+.adv-road_place {
+	width: 6.4rem;
+	overflow: hidden;
+}
+.cell-img {
+	width: .5rem;
+	height: .5rem;
+}
+.pack-time-wrap {
+	background: #fff;
+	font-size: .29rem;
+	border-bottom: 1px solid #d4d4d4;
+}
+.pack-time {
+	width: 6.4rem;
+	height: .9rem;
+	margin: 0 auto;
+}
+.pack-time h3 {
+	font-size: .29rem;
+	height: .48rem;
+	padding-right:.24rem;
+	border-right: 1px solid #d4d4d4;
+	color: #2298ef;
+    font-weight: normal;
+}
+.detail-imortant {
+	color: red;
+}
+.adv-road_addr {
+	width: 5.6rem;
+}
+.pack-items {
+	margin-top: .2rem;
+}
+.pack-time_num {
+	padding-left: .2rem;
+}
+.pack-items_title {
+	background: #fff;
+	font-size: .33rem;
+	line-height: .56rem;
+	padding: 0 .4rem;
+	font-weight: normal;
+	border-bottom: 1px solid #2298ef;
+}
+.pack-items ul {
+	background: #fbfbfb;
+	font-size: .29rem;
+
+}
+.pack-items_content {
+	padding: 0 .4rem;
+	overflow: hidden;
+	line-height: .78rem;
+	border-bottom: 1px solid #ddd;
+}
+.items_content_title {
+	float: left;
+}
+.items_content_infor {
+	float: right;
+}
+.items-memo_title,.items-memo_content {
+	display: inline-block;
+}
+.items-memo_title {
+	padding:0 .3rem 0 .4rem;
+}
+/* .items-memo_content {
+	margin-left: .3rem;
+} */
+.memo-space {
+	height: .78rem;
+	border-bottom: 1px solid #ddd;
+}
+.memo-no-border {
+	padding-left: 0;
+}
+.memo-wrap {
+	position: relative;
+}
+.border-trans {
+	position: absolute;
+	width:1.66rem;
+	height: 2px;
+	top: .75rem;
+	background: #fbfbfb;
+	left: 0;
+	z-index: 10;
+}
+.package-btn,.pack-contact-btn {
+	margin: .8rem auto .5rem;
+}
+.weui-popup-modal {
+	background: #fff;
+}
+.popup-bar {
+	padding: 0 .4rem;
+	font-size: .3rem;
+	line-height: .82rem;
+	border-bottom: 1px solid #2298ef;
+}
+.close-popup {
+	color:#fe7759;
+}
+.pack-update-btn {
+	color: #2298ef;
+}
+.weui-popup-modal .modal-content {
+    padding-top: 0;
+}
+.pack-price-input,.pack-car-input {
+	padding: .3rem 0;
+	border-bottom: 1px solid #7d7d7d;
+	position: relative;
+}
+.my-price_tips {
+    position: absolute;
+    right: .4rem;
+    top: .3rem;
+    color: #999;
+}
+.modal-content input {
+	width: 100%;
+	border: none;
+	line-height:.3rem;
+	font-size: .3rem;
+	outline: none;
+	padding-left: .32rem;
+	color: #2298ef;
+}
+.pack-update-wrap {
+	bottom: 60%;
+}
+.pack-cancel,.pack-change-price {
+	width: 2.7rem;
+}
+.pack-do-order {
+	margin: .8rem auto .5rem;
+	}
+.pack-contact_wrap {
+	overflow: hidden;
+	padding:.2rem .4rem;
+}
+.lock-btn {
+	margin: .4rem auto;
+}
+a.cancel {
+	color:#ff4400;
+}
+a.confirm {
+	color: #2298ef;
+}
+.btn-to-gray {
+	background: #969696;
+}
+
+

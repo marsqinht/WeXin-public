@@ -1,0 +1,191 @@
+/* 企业钱包 start */
+body {
+	background: #fff;
+}
+.wallet-container {
+	height: 100%;
+	background: #fff;
+}
+.wallet-money {
+	width: 100%;
+	height: 4.4rem;
+	background: #f77c36;
+	color: #fff;
+	position: relative;
+	text-align: center;
+	z-index: 99;
+}
+.wallet-info {
+	padding-top: .2rem;
+}
+.wallet-title {
+	font-size:.35rem;
+	width: 100%;
+	position: absolute;
+	top: 1.7rem;
+}
+.wallet-num {
+	width: 100%;
+	font-size: .7rem;
+	position: absolute;
+	top: 2.3rem;
+	z-index: 100;
+}
+.wallet-num span {
+	font-size: .58rem;
+}
+.wallet-circle {
+	width: 2.8rem;
+	height: 2.8rem;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -1rem;
+	left: 50%;
+	margin-left: -1.4rem;
+	background: #f77c36 ;
+
+}
+.wallet-icon {
+	width: 1.2rem;
+	height: 1.2rem;
+	background: #f77c36 url(../images/wallet.png) center 0.2rem no-repeat;
+	-webkit-background-size: 1.2rem;
+	background-size: 1.2rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -0.6rem;
+	bottom: -.3rem;
+}
+.wallet-items {
+	position: relative;
+}
+.wallet-trade_details,.wallet-apply {
+	position: absolute;
+	width: 2.6rem;
+	height:.66rem;
+	border: 1px solid #f87736;
+	font-size: .38rem;
+	color: #f87736;
+	left: 50%;
+	margin-left: -1.4rem;
+	border-radius: .1rem;
+	background: #fff;
+	padding:.1rem;
+}
+.wallet-items p {
+	text-indent: .2rem;
+}
+.wallet-trade_details {
+	position: absolute;
+	top:1.9rem;
+}
+.details-icon,.apply-icon {
+	width: .6rem;
+	height: .6rem;
+
+}
+.details-icon {
+	background: #fff url(../images/wallet.png) -.2rem -.86rem  no-repeat;
+	-webkit-background-size: 1rem;
+	background-size: 1rem;
+}
+.apply-icon {
+	background: #fff url(../images/wallet.png) -.2rem -1.48rem  no-repeat;
+	-webkit-background-size: 1rem;
+	background-size: 1rem;
+}
+.wallet-apply {
+	position: absolute;
+	top: 3.3rem;
+}
+.wallet-bottom {
+	width: 100%;
+	height:.4rem;;
+	background: #f87736;
+	position: absolute;
+	bottom: 0;
+}
+/* 企业钱包 end */
+/* 提现申请 start */
+.cash-tips {
+	font-size:.24rem;
+	color:#fd7069;
+	line-height: .42rem;
+	background: #fff;
+	text-align: center;
+}
+.cash-record_link {
+	overflow: hidden;
+}
+.cash-select {
+	display: inline-block;
+	margin-left: .26rem;
+}
+.cash-record_link span {
+	float: right;
+	margin-right: .28rem;
+	text-decoration: underline;
+	font-size:.28rem;
+	line-height: .66rem;
+}
+.cash-apply_input {
+    background: #fff;
+    padding: .15rem .3rem;
+    border-bottom: 1px solid #2298ef;
+    overflow: hidden;
+}
+.cash-yn {
+	display: inline-block;
+}
+.cash-apply_title {
+	font-size: .31rem;
+    font-weight: normal;
+    line-height: .54rem;
+    border-right: 1px solid #2298ef;
+    padding-right: .24rem;
+    display: inline-block;
+}
+.cash-apply_input input {
+	padding-left: .2rem;
+    font-size: .29rem;
+}
+.cash-apply-btn {
+	margin:2.7rem auto 0;
+}
+.cash-get_code {
+	display: inline-block;
+	border: none;
+	background: #2298ef;
+	color: #fff;
+	font-size: .26rem;
+	padding: .1rem;
+	border-radius: .06rem;
+	float: right;
+}
+.code-gray {
+	background: #aaa;
+}
+#cash-code {
+	width: 2.8rem;
+}
+/* 提现申请 end */
+/* 交易明细  start */
+.month-table,.record-table {
+	margin-top: .2rem;
+	text-align: center;
+	background: #fff;
+	color:  #2298ef;
+	font-size: .3rem;
+	line-height: .6rem;
+}
+.month-title,.details-items_title {
+	border-bottom: 1px solid #2298ef;
+}
+.details-items {
+	line-height: .78rem;
+	color:#666;
+}
+.loading-tips {
+    text-align: center;
+}
+/* 交易明细  end */

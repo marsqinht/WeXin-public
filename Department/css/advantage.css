@@ -1,0 +1,100 @@
+/* 常跑路线列表 */
+#adv-wrap {
+	font-size: 17px;
+	padding-top: 36px;
+}
+.adv-tips {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	font-size: 14px;
+	background: rgba(255,255,255,0.7);
+	text-align: center;
+	color: #fc5f5a;
+	line-height: 2;
+}
+.adv-new-road {
+	position: relative;
+	height: .5rem;
+}
+.new-road-btn {
+	position: absolute;
+	right: 0.26rem;
+	text-decoration: underline;
+}
+.new-road-btn a {
+	color: #000;
+}
+.adv-road-container,.history-container {
+	margin-top: .2rem;
+	border-top: 0.05rem solid #2298ef;
+}
+.road-item-price {
+	color: red;
+}
+.weui_btn_dialog.primary {
+    color: #2298ef;
+}
+/* 常跑路线列表 end*/
+.new-save-btn {
+	width:5.6rem;
+	margin:.64rem auto 0;
+}
+.weui_btn_primary {
+    background-color: #2298ef;
+}
+.new-tips {
+	width:4.4rem;
+	margin:.7rem auto 0;
+	font-size: .28rem;
+	color: #fc5f58;
+	line-height:.4rem;
+}
+.weui_btn_primary:not(.weui_btn_disabled):active {
+    color: rgba(255, 255, 255, 0.4);
+    background-color: #1391ea;
+}
+.new-point-btn {
+	width:5.6rem;
+	margin: 2rem auto 0;
+}
+.history-items {
+	border-bottom: 1px solid #2298ef;
+	margin-bottom: 0;
+}
+.history-col,.history-col-title {
+	text-align: center;
+}
+.his-pric-wrap {
+	background: #fff;
+}
+.his-price-title {
+	color: #2298ef;
+	font-size: .3rem;
+	border-bottom: 1px solid #2298ef;
+}
+.history-col-title {
+	line-height: .62rem;
+}
+.his-price-cells {
+	font-size: .3rem;
+	line-height: .8rem;
+	color: #666;
+}
+.history-col {
+	border-bottom: 1px solid #afafaf;
+}
+span.his-tittle-addr {
+	font-size: .24rem;
+	color:#666;
+}
+.his-top-btn {
+	margin-top: 3.75rem;
+}
+.loading-tips {
+	text-align: center;
+}
+.new-point-half {
+	width: 2.6rem;
+}
+

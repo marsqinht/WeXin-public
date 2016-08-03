@@ -1,0 +1,117 @@
+/* 浏览器样式清除 reset */
+body,div,span,p,h1,h2,em,a,fieldset,legend,address,label,textarea,select,input,figure,table,th,td,b,i,ul,li{margin:0;padding:0;}
+body, button, input, select, textarea { font:12px/1.5 Tahoma,Arial,'微软雅黑';}
+ol,ul,li {list-style: none;}
+i{font-style:normal;}
+a{text-decoration:none;}
+input,select,img{ vertical-align:middle;}
+.clearfix:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clearfix{zoom:1} 
+
+ 
+.wei-article {
+	width: 100%;
+	padding-top: 0.3rem;
+}
+
+.p-content {
+	width: 92%;
+	margin: 0 auto;
+	position: relative;
+	left: 0
+}
+
+/* 标题 */
+.wei-article .p-content h1 {
+	font-size: 0.4rem;
+	line-height: 0.6rem;
+	font-weight: normal;
+}
+.wei-article .p-content .pub-info {
+	margin-top: 0.12rem;
+	padding-bottom: 0.1rem;
+	border-bottom: 1px solid #c7c3c3;
+	font-size: 0.28rem;
+}
+/* 发布时间 */
+.wei-article .p-content time {
+	color: #8c8c8c;
+	float: left;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	margin-right: 0.2rem;
+}
+/* 作者 */
+.wei-article .p-content i {
+	color: #8c8c8c;
+	padding-right: 0.2rem;
+	float: left;
+	height: 0.5rem;
+	line-height: 0.5rem;
+}
+/* 标签 */
+.p-content .tag {
+	font-size: 0.22rem;
+	font-size/*\**/: 12px\9;
+	padding:0.06rem 0.1rem;
+	margin-right: 0.2rem;
+	float: left;
+	margin-bottom: 0.1rem;
+	position: relative;
+	z-index: 100;
+}
+/* 标签颜色 */
+.p-content .tag-c1 {
+	border: 1px solid orange;
+	color: orange;
+}
+.p-content .tag-c2 {
+	border: 1px solid #fc1c37;
+	color: #fc1c37;
+}
+.p-content .tag-c3 {
+	border: 1px solid #40b9b0;
+	color: #40b9b0;
+}
+.p-content .tag-c4 {
+	border: 1px solid #4b7d00;
+	color: #4b7d00;
+}
+.p-content .tag .tag-list{
+	width: 2.1rem;
+	font-size: 0.4rem;
+	position: absolute;
+	left: 0;
+	top: 0.5rem;
+	color: #fff;
+	background: orange;
+	display: none;
+}
+.p-content .tag .tag-list li {
+	width: 100%;
+	padding: 0.1rem 0.1rem;
+	line-height: 0.5rem;
+	text-align: left;
+	border-bottom: 1px solid #fff;
+}
+/* 文章内容 */
+.wei-article .p-content article {
+	padding: 0.2rem 0 0.4rem 0;
+}
+
+
+.wei-article .p-content .rich_media_title {
+	padding-top: 0.8rem;
+	font-size: 0.38rem;
+}
+.wei-article .rich_media_title hr {
+	border:0;
+	background-color:#c7c3c3;
+	height:1px;
+}
+/* 文章段落 */
+.wei-article .p-content p {
+	font-size: 0.34rem;
+	font-size/*\**/: 17px\9;
+	margin-top: 0.3rem;
+}

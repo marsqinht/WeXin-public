@@ -1,0 +1,135 @@
+.fabao-info {
+    margin-bottom:100px;
+}
+
+.fabao-info .weui_label {
+  width: 1.8rem;
+  margin: 0 0 0 .2rem;
+}
+.fabao-info .note {
+  margin-top: -1rem;
+}
+.fabao-info .fabao-icons {
+  width: 23px;
+  height: 23px;
+}
+.fabao-info .weui_cell:nth-of-type(1) .fabao-icons {
+  background: transparent url(../images/fabao-icons.png) 0 -70px no-repeat;
+  background-size: 23px;
+}
+.fabao-info .weui_cell:nth-of-type(2) .fabao-icons {
+  background: transparent url(../images/fabao-icons.png) 0 -140px no-repeat;
+  background-size: 23px;
+}
+.fabao-info .weui_cell:nth-of-type(3) .fabao-icons {
+  background: transparent url(../images/fabao-icons.png) 0 -116px no-repeat;
+  background-size: 23px;
+}
+.fabao-info .weui_cell:nth-of-type(4) .fabao-icons {
+  background: transparent url(../images/fabao-icons.png) 0 0 no-repeat;
+  background-size: 23px;
+}
+.fabao-info .weui_cell:nth-of-type(5) .fabao-icons {
+  background: transparent url(../images/fabao-icons.png) 0 -24px no-repeat;
+  background-size: 23px;
+}
+.fabao-info .weui_cell:nth-of-type(6) .fabao-icons {
+  background: transparent url(../images/fabao-icons.png) 0 -46px no-repeat;
+  background-size: 23px;
+}
+.fabao-info .weui_cell:nth-of-type(7) .fabao-icons {
+  background: transparent url(../images/fabao-icons.png) 0 -163px no-repeat;
+  background-size: 23px;
+}
+.fabao-info .weui_cell:nth-of-type(8) .fabao-icons {
+  background: transparent url(../images/fabao-icons.png) 0 -94px no-repeat;
+  background-size: 23px;
+}
+.fabao-info .fahuo,
+.fabao-info .shouhuo {
+  margin: 0 .2rem;
+}
+.fabao-info .add-address {
+  background: #04be02;
+  color: #fff;
+}
+.fabao-info address {
+  font-style: normal;
+}
+.fabao-info img {
+  width: 23px;
+  height: 23px;
+  float: right;
+}
+.fabao-logo {
+  display: box;	  
+  display: -webkit-box;	  
+  display: -moz-box;	 
+  display: -ms-flexbox;	 
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+}
+.fabao-logo .logo-img {
+  width: 1.98rem;
+  height: 1.18rem;
+  margin: 0.4rem 0 0 0;
+}
+.inputs {
+  width: 100%;
+  height: 1rem;
+  position: fixed;
+  border: none;
+  border: 1px solid #04BE02;
+  top: 20%;
+  font-size: .4rem;
+  z-index: 999;
+  display: none;
+}
+.fabu-btn {
+  position: fixed;
+  bottom: 135px;
+  right: 2%;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  font-size: .4rem;
+  line-height: 1rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: bottom;
+  background: #4ab0f4;
+  z-index: 1000;
+}
+.fa-addr {
+    margin-left: .1rem;
+}
+#short-msg-btn {
+    border: 1px solid #4ab0f4;
+    padding: 0 6px;
+    color: #fff;
+    background: #4ab0f4;
+    float: right
+}
+.msg-v-code {
+    width:100px;
+}
+.addr-confirm-btn {
+    display:none;
+    font-size:.36rem;
+    border:none;
+    background:#04BE02;
+    color:#fff;
+    height:.8rem;
+    width:1.2rem;
+    height: 1rem;
+    position: fixed;
+    border: none;
+    top: 20%;
+    right:0;
+    z-index:1000;
+}

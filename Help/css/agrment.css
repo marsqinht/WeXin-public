@@ -1,0 +1,25 @@
+/* 浏览器样式清除 reset */
+ body,div,span,p,h1,h2,em,a,fieldset,legend,address,label,textarea,select,input,figure,table,th,td,b,i{margin:0;padding:0;}
+body, button, input, select, textarea{ font:12px/1.5 Tahoma,Arial,'微软雅黑'; }
+i{font-style:normal;}
+a{text-decoration:none;}
+input,select,img{ vertical-align:middle;}
+
+.agreement {
+	width: 88%;
+	margin: 0 auto;
+}
+.agreement h1 {
+	font-size: 1.3rem;
+	margin-top: 1rem;
+}
+.agreement h2 {
+	font-size: 1rem;
+}
+.agreement .agr-items p {
+	font-size: 1rem;
+	margin-bottom: 0.6rem;
+}
+.agr-content {
+	margin-top: 0.5rem;
+}

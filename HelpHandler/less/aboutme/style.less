@@ -1,0 +1,159 @@
+@wec: #04BE02;
+body { 
+	width: 7.2rem;
+	height: 100%;
+	background: #f1f1f1;
+}
+/* 遮罩层 */
+.me-mask {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0);
+	top:0;
+	left: 0;
+	display: none;
+}
+.me-mask-active {
+	background: rgba(0, 0, 0, 0.6);
+	display: block;
+}
+
+.to-top {
+		top:0;
+	}
+.to-bottom {
+	bottom: 0;
+}
+/* 遮罩层 end */
+
+.wechat-info {
+	width:6.8rem;
+	padding: .2rem;
+	height: 1.2rem;
+	background: #fff;
+	.wechat-logo {
+		width: 1.2rem;
+		height: 1.2rem;
+		display: inline-block;
+		background: transparent url(./../../images/logo/logo.png) 0 0 no-repeat;
+		background-size: 100%;
+	}
+	.wechat-name {
+		width: 60%;
+		display: inline-block;
+		font-size: .32rem;
+		vertical-align: top;
+		margin:.14rem 0 0 0;
+	}
+}
+
+/* 我-->添加公司 */
+.user-info {
+	.ac-sheets {
+		width: 100%;
+		background: #fff;
+		padding: .5rem 0;
+		position: fixed;
+		left: 0;
+		z-index: 6;
+		display: none;
+		.weui_cells {
+			width: 100%;
+		}
+	}
+	.add-phone {
+		/* display: block; */
+		.code {
+			width: 4rem;
+			height: .7rem;
+			margin: .2rem 0 0 .2rem;
+			border: 1px solid #d9d9d9;
+			text-align: center;
+		}
+		.get-code {
+			display: inline-block;
+			width: 2rem;
+			height: .65rem;
+			line-height: .65rem;
+			margin: 0 0 0 .4rem;
+			border: 2px solid @wec;
+			border-radius: .1rem;
+			text-align: center;
+		}
+		.code-toggle {
+			border: 2px solid #e5e5e5;
+			color: #fff;
+			background: #e5e5e5;
+		}
+	}
+}
+
+
+/* 我-->>联系我们 */
+.back-to-pages {
+  margin: .4rem 0 0 0;
+  padding: 0 0 0 .2rem;
+}
+.back-to-pages .back-btn {
+  width: .4rem;
+  height: .4rem;
+  font-size: 0.4rem;
+  line-height: .4rem;
+  text-indent: .4rem;
+  background: transparent url(../../images/back_left.png) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+/* 车辆管理 */
+.add-car {
+	width: 100%;
+	//height: 11rem;
+	background: #fff;
+	padding: .4rem 0 0 0;
+	.add-btn {
+		font-size: 0.35rem;
+		text-align: right;
+		line-height: .8rem;
+		border-bottom: 1px solid #d9d9d9;
+	}
+	.car-info {
+		width: 100%;
+		.car-items {
+			width: 7rem;
+			font-size: .3rem;
+			line-height: .8rem;
+			margin: 0 .2rem;
+			display: flex;
+			display: -webkit-flex;
+			justify-content:space-between;
+			border-bottom: 1px solid #d9d9d9;
+			.car-del {
+				color:red;
+			}
+		}
+	}
+}
+.car-sheets {
+	width: 100%;
+	background: #fff;
+	font-size: .37rem;
+	padding: .2rem 0;
+	position: fixed;
+	left: 0;
+	z-index: 6;
+	display: none;
+	input {
+		border: none;
+		margin-left: .3rem;
+		color:#d9d9d9;
+	}
+	.sheets-list {
+		border-bottom: 1px solid #d9d9d9;
+		height: .8rem;
+		line-height: .8rem;
+		margin-left: .4rem;
+	}
+
+}

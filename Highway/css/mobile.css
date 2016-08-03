@@ -1,0 +1,315 @@
+body {
+	background: #f1f1f1;
+	padding-bottom: .2rem;
+}
+.weui_btn_primary:not(.weui_btn_disabled):active {
+    color: rgba(255, 255, 255, 0.4);
+    background-color: #1391ea;
+}
+.weui_btn_primary {
+	background-color:#2298ef;
+}
+.weui-popup-container .weui_cells {
+    margin-top: 1.17647059em;
+    text-align: left;
+}
+.blue-btn-wrap {
+	width: 5.6rem;
+	margin: 1.5rem auto;
+}
+.adv-road-items {
+	background: #fff;
+	margin-bottom: .2rem;
+}
+.adv-road_place {
+	width: 6.8rem;
+	margin: 0 auto;
+/* 	border-bottom:1px solid #2298ef; */
+}
+.adv-road_icon,.adv-road_addr {
+	display: inline-block;
+}
+.adv-road_icon {
+	font-size: .26rem;
+	background: #2298ef;
+	width: .34rem;
+	height: .34rem;
+	color: #fff;
+	line-height: .34rem;
+	text-align: center;
+	display: inline-block;
+}
+.adv-road_place_start {
+	line-height: .66rem;
+}
+.adv-road_place_start:nth-of-type(1) {
+	border-bottom: 1px solid #2298ef;
+}
+.adv-road_addr {
+	/* width: 6.2rem; */
+	margin-left: .11rem;
+	font-size: .27rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.adv-road_addr span {
+	color: #2298ef;
+	font-size: .29rem;
+}
+span.his-tittle-addr {
+    font-size: .24rem;
+    color: #666;
+}
+.road-infor-wrap {
+	border-top: 1px solid #2298ef;
+}
+.adv-road_information {
+	width: 6.6rem;
+	margin: 0 auto;
+	font-size: .28rem;
+	line-height: .58rem;
+}
+.road-infor-mid {
+	text-align: center;
+}
+.road-item-price {
+	text-align: right;
+}
+.adv-road_price {
+	background: #2298ef;
+	color: #fff;
+	font-size: .32rem;
+	text-align: center;
+	line-height: .7rem;
+}
+.trade-order-item {
+	margin-top: .2rem;
+	border: 3px solid #2298ef;
+	border-left: none;
+	border-right: none;
+	background: #fff;
+}
+.weui_cells_access {
+	border-top: 3px solid #2298ef;
+	border-bottom: 3px solid #2298ef;
+}
+.list-search_wrap {
+	width: 6.5rem;
+	height:.88rem;
+	margin: 0 auto;
+}
+.list-seacrh_btn {
+	border: none;
+	background: #2298ef;
+	color: #fff;
+	width:1.4rem;
+	height: .68rem;
+	font-size: .3rem;
+	outline: none;
+	border-radius: .1rem;
+}
+.list-search_input {
+	width: 4.78rem;
+	color: #a3a3a3;
+	border-left: 1px solid #2298ef;
+	text-indent:.3rem;
+	height: .62rem;
+	line-height: .62rem;
+}
+.trade-order_place {
+	margin-bottom: 0;
+	border-bottom: 1px solid #2298ef;
+}
+.order-self_price {
+	color: #ff4400;
+}
+.adv-road_place {
+	width: 6.5rem;
+}
+.adv-road_addr {
+	width: 6rem;
+}
+.trade-order_details {
+	width: 6.5rem;
+	font-size: .27rem;
+	margin: 0 auto;
+	display: box;			  /* OLD - Android 4.4- */
+	display: -webkit-box;	  /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;		 /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;	  /* TWEENER - IE 10 */
+	display: -webkit-flex;	 /* NEW - Chrome */
+	display: flex;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	-o-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	-moz-justify-align-items: center;
+	-ms-justify-align-items: center;
+	-o-justify-align-items: center;
+	align-items: center;
+}
+
+.details_cells:nth-of-type(2),.details_cells:nth-of-type(3) {
+	display: box;			  /* OLD - Android 4.4- */
+	display: -webkit-box;	  /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;		 /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;	  /* TWEENER - IE 10 */
+	display: -webkit-flex;	 /* NEW - Chrome */
+	display: flex;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	-o-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	-moz-justify-align-items: center;
+	-ms-justify-align-items: center;
+	-o-justify-align-items: center;
+	align-items: center;
+	width: 1.56rem;
+	height: 1.56rem;
+	border: 2px solid #2298ef;
+	border-radius: .1rem;
+}
+.details_cells:nth-of-type(2) {
+	color: #2298ef;
+}
+.details_cells:nth-of-type(3) {
+	background: #2298ef;
+	font-size: .36rem;
+	color: #fff;
+}
+.order-detail_cell {
+	border-bottom: 1px solid #2298ef;
+	line-height: .62rem;
+}
+.latset-details_cells:nth-of-type(1) {
+	width: 3.5rem;
+}
+.latest_cell {
+	border-bottom: none;
+}
+.order-detail_cell:nth-of-type(3) {
+	border-bottom: none;
+}
+.order-status {
+
+}
+.new-order-btn {
+	width:2.5rem;
+	height: 1rem;
+	background: #2298ef;
+	color: #fff;
+	border: none;
+	border-radius: .1rem;
+	font-size: .36rem;
+	text-align: center;
+    line-height: 1rem;
+}
+.search-region-btn {
+	margin: 1rem auto;
+}
+.right-arrow {
+	text-align: right;
+    color: #2298ef;
+    float: right;
+}
+.right-arrow:after {
+	content: " ";
+    display: inline-block;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    height: 6px;
+    width: 6px;
+    border-width: 2px 2px 0 0;
+    border-color: #2298ef;
+    border-style: solid;
+    position: relative;
+    top: -2px;
+    top: -1px;
+    margin-left: .3em;
+}
+.flx-space {
+	display: box;			  /* OLD - Android 4.4- */
+	display: -webkit-box;	  /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;		 /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;	  /* TWEENER - IE 10 */
+	display: -webkit-flex;	 /* NEW - Chrome */
+	display: flex;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	-o-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	-moz-justify-align-items: center;
+	-ms-justify-align-items: center;
+	-o-justify-align-items: center;
+	align-items: center;
+}
+span.common {
+	color: #2298ef;
+	font-size: .26rem;
+	padding-left: .1rem;
+}
+span.mile {
+	padding-left: .3rem;
+	color:#ff4400;
+}
+option {
+	text-align: right;
+}
+.weui_cell:before {
+    border-top: 1px solid #2298ef;
+}
+.weui_cell_bd p {
+	width: 3rem;
+}
+.select-self {
+	width: 147px;
+	float: right;
+	text-align: right;
+}
+.toolbar .toolbar-inner {
+    height: .8rem;
+}
+.toolbar .picker-button {
+    height: .8rem;
+    line-height: .8rem;
+    color: #2298ef;
+}
+.toolbar, .toolbar .title {
+    font-size: .34rem;
+}
+
+.toolbar .title {
+    line-height: .8rem;
+}
+.weui-popup-modal .modal-content {
+    padding-top: .8rem;
+}
+.weui-popup-container, .weui-popup-overlay {
+    z-index: 1000;
+    background: rgba(0,0,0,0.7);
+}
+.search-btn {
+	margin-top: .2rem;
+	margin-right: .3rem;
+	float: right;
+	border: none;
+    background: #2298ef;
+    text-align: center;
+    line-height: .68rem;
+    color: #fff;
+    width: 1.4rem;
+    height: .68rem;
+    font-size: .3rem;
+    outline: none;
+    border-radius: .1rem;
+}
+.btn-wrap {
+	overflow: hidden;
+}

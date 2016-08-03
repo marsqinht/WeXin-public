@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+	background: transparent url(../img/share1.jpg) center no-repeat;
+	background-size: cover;
+}
+.key {
+	position: absolute;
+	text-align: center;
+	color: red;
+	width: 100vw;
+	top: 40vh;
+	font-size: 30px;
+}
+.desrc {
+	position: absolute;
+	width: 100vw;
+	text-align: center;
+	color: red;
+	bottom: 20vh;
+	font-size: 20px;
+	font-weight: bold;
+}
+     

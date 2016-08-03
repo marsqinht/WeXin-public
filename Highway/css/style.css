@@ -1,0 +1,67 @@
+.am-topbar-brand {
+	background: transparent url(../images/login-icons.png) 0 -96px no-repeat;
+	padding-left: 50px;
+}
+.get {
+    background: #1E5B94;
+    background:  url(../images/bg1.jpg) 0 0 no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+    margin-top: -55px;
+    background-size: cover;
+}
+.chageheader {
+    background: rgba(0, 0, 0, .7);
+    color: #FFFFFF;
+}
+.am-topbar-inverse {
+    border-color: transparent;
+}
+/* .headercolor {
+    background: none;
+} */
+.get-title {
+    font-size: 200%;
+    border: 2px solid #fff;
+    padding: 20px;
+    display: inline-block;
+}
+.get-btn {
+    /* background: #fff; */
+    border: 2px solid #fff;
+}
+.detail {
+	background: #f8f8f8;
+	background: url(../images/bg.png) left top #f5f5f5;
+    overflow-y: hidden;
+	padding: 30px 0 ;
+	padding-bottom: 50px;
+}
+.detail-wrap {
+	background: #fff;
+	border:1px solid #eee;
+	border-radius: 6px;
+	padding: 20px;
+}
+.srch-start,.srch-species {
+	margin-bottom: 10px;
+}
+.srch-icon {
+	padding-right: 4px;
+}
+.am-icon-cubes {
+	font-size: 1.29rem;
+}
+.srch-start-label {
+	padding-right: 8px;
+}
+.table-wrap {
+	margin: 30px 0;
+}
+.am-icon-line-chart {
+	color:#F37B1D;
+}
+.srch-tips {
+	color: #999;
+}
